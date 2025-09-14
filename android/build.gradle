@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.android.tools.build:gradle:8.4.0'
     }
 }
 
@@ -30,12 +30,12 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     
     namespace 'dev.bessems.usbserial'
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 24
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
