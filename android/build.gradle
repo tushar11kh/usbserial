@@ -35,7 +35,7 @@ android {
     namespace 'dev.bessems.usbserial'
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 21
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
